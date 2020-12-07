@@ -1,0 +1,74 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+
+
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    font-size: 35;
+    width:27%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    color: #38383d;
+    
+}
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.intro-text {
+    margin: auto;
+    font-size: 40px;
+    background: linear-gradient(to right, #494964, #6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.info-text p {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #262627;
+}
+
+.presentation{
+    display:flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+.cover{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 115 0;
+}
+.cover img{
+    height: 60vh;
+}
+
+.link{
+    
+    flex: 1;
+    display: flex;
+    justify-content: left;
+   
+    
+
+    
+}
+
+.beeg{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    opacity: 30%;
+    height: 40%;
+}
+
+
+
